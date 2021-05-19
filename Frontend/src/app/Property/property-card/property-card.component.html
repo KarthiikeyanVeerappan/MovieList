@@ -1,0 +1,15 @@
+<div class="card">
+  <img class="card-img-top" style="overflow: hidden;" src="{{property.poster}}">
+<div>
+  <ul class="list-inline text-center member-icons">
+    <li class="list-inline-item">
+      <button class="btn btn-primary" routerLink="/property-detail/{{property.movieid}}">Info</button>
+    </li>
+  </ul>
+</div>
+  <div class="card-body p-2" style="margin-top: 10px;">
+    <h2>Movie: {{property.moviename}}</h2>
+    <h2>Type: {{property.movieType}}</h2>
+    <h3>Language: {{property.language}}</h3>
+  </div>
+</div>
